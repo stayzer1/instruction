@@ -1,0 +1,10 @@
+
+
+// Body Locked
+body {
+    background: linear-gradient(180deg, #0c2632 0%, #00060e 100%);
+    font-family: "Inter", sans-serif;
+    &.locked {
+        overflow: hidden;
+    }
+}
